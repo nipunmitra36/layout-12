@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.html{
+    font-size: 63%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrapper{
+    width: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 960px;
+    padding: 12px;
+    border: 2px solid #000000;
+    background-color: #8a2be2;
+}
+.main-header{
+    background-color: #ffff00;
+    border: 2px solid #000000;
+    padding: 50px;
+}
+.box-control{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text-center{
+    text-align: center;
+}
+.box-1{
+    padding: 50px;
+    width: 30%;
+    background-color: #ffe4c4;
+    border:2px solid #000000;
+    text-align: justify;
+}
+.box-2{
+    padding: 50px;
+    width: 60%;
+    background-color: #ffe4c4;
+    border: 2px solid #000000;
+    text-align: justify;
+}
+.box-3{
+    width: 30%;
+    padding: 50px;
+    background-color: #ffe4c4;
+    border: 2px solid #000000;
+    text-align: justify;
+}
+.main-box{
+    display: flex;
+    justify-content: space-between;
+}
+.main-box-one{
+    margin-top: 20px;
+    display: flex;
+    width: 65%;
+    border: 2px solid #000000;
+    background-color: #008cff;
+    padding: 20px;
+}
+.main-box-two{
+   padding: 30px;
+   margin-top:20px;
+   width: 30%; 
+   border: 2px solid #000000;
+   background-color: #ffff00;
+   text-align: justify;
+}
+
+.sub-box{
+    width: 80%;
+    padding: 30px;
+    background-color: #ffff00; 
+    border: 2px solid #000000;   
+    text-align: justify;
+}
+.side-button{
+    padding: 5px;
+}
+.bt-1{
+    width: 100%;
+    margin-top:20px;   
+    padding: 15px 50px;
+    background-color: #464646;
+    border: 2px solid #000000;
+    color: #ffffff;
+}
+.bt-1:first-child{
+    margin-top:0;
+}
+
+@media (max-width:991px) {
+    .wrapper{
+        width: 90%;
+    }
+    .box-control{
+        display: block;
+    }
+    .main-box{
+        display: block;
+    }
+    .main-box-one{
+        display: block;
+        width: 100%;
+    }
+   .main-box-two{
+       width: 100%;
+   }
+    .box-1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box-2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box-3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sub-box{
+        width: 100%;
+    }
+    .side-button{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    .wrapper{
+        width: 100%;
+    }
+}
